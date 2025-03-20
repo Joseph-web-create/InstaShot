@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router";
 import AuthLayout from "../layout/AuthLayout";
 import Register from "../pages/register/Register";
-import Login from "../pages/Login/Login";
+import Login from "../pages/login/Login";
 
 function AppRoutes() {
   const routes = [
@@ -20,7 +20,8 @@ function AppRoutes() {
       ],
     },
   ];
-  return <div>AppRoutes</div>;
+  const router = createBrowserRouter(routes);
+  return <RouterProvider router={router} />;
 }
 
 export default AppRoutes;
