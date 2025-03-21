@@ -109,7 +109,7 @@ function Register() {
             onClick={togglePassword}
             type="button"
           >
-            {revealPassword ? <button>Show</button> : <button>Hide</button>}
+            {revealPassword ? <span>Show</span> : <span>Hide</span>}
           </button>
         </div>
         {errors.password && (
