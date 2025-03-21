@@ -127,9 +127,14 @@ function Register() {
           >
             Continue
           </button> */}
+
           <button className="btn w-full text-white bg-[#8D0D76] hover:bg-[#8d0d76cb]">
             Continue
           </button>
+
+          <div className="text-center mt-[10px]">
+            <p className="px-[40px]">By signing up, you agree to our Term, data policy</p>
+          </div>
         </form>
       </div>
       <div className="w-[90vw] md:w-[500px] border rounded-md border-[#A1A1A1] py-[20px] px-[28px] mt-5 text-center">
